@@ -1,0 +1,54 @@
+#!/bin/sh
+
+CUR_DIR=`pwd`
+RAW_OUTPUT_DIR=${CUR_DIR}/raw.out
+CLONES_DIR=${CUR_DIR}/clones
+
+function processRepos() {
+    while read FILE_LINE; do
+        processRepo ${FILE_LINE}
+    done <repos.txt
+    return
+}
+
+function processRepo() {
+    REPO_URL=${1}
+    REPO_NAME=${REPO_URL##*/}
+    REPO_DIR_NAME=${REPO_NAME%%.*}
+    cloneRepo ${REPO_URL} ${REPO_DIR_NAME}
+    processRepoDir ${REPO_DIR_NAME}
+    return
+}
+
+function cloneRepo() {
+    REPO_URL=${1}
+    REPO_DIR_NAME=${2}
+    git clone ${REPO_URL} ${CLONES_DIR}/${REPO_DIR_NAME}
+    return
+}
+
+function processRepoDir() {
+    REPO_DIR_NAME=${1}
+    cd ${CLONES_DIR}/${REPO_DIR_NAME}
+    git --no-pager log | grep "Author: " > ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt
+    processRawLog ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt
+    cd ${CUR_DIR}
+    rm -fR ${CLONES_DIR}/${REPO_DIR_NAME}
+    return
+}
+
+function processRawLog() {
+    RAW_FILE_LOG=${1}
+    CLEANED_FILE_LOG=${2}
+    while read FILE_LINE; do
+        AUTHOR_AND_EMAIL=${FILE_LINE##Author: }
+        echo ${AUTHOR_AND_EMAIL%% <*} >> ${CLEANED_FILE_LOG}
+    done <${RAW_FILE_LOG} 
+    return
+}
+
+mkdir -p ${RAW_OUTPUT_DIR}
+mkdir -p ${CLONES_DIR}
+processRepos
+
+exit 0
