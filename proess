@@ -23,17 +23,24 @@ function processRepo() {
 function cloneRepo() {
     REPO_URL=${1}
     REPO_DIR_NAME=${2}
-    git clone ${REPO_URL} ${CLONES_DIR}/${REPO_DIR_NAME}
+    if [ -d "${CLONES_DIR}/${REPO_DIR_NAME}" ]; then
+        echo "${CLONES_DIR}/${REPO_DIR_NAME} exists and clone is skipped."
+    else
+        git clone ${REPO_URL} ${CLONES_DIR}/${REPO_DIR_NAME}
+    fi   
     return
 }
 
 function processRepoDir() {
     REPO_DIR_NAME=${1}
     cd ${CLONES_DIR}/${REPO_DIR_NAME}
+    rm -f ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt
+    rm -f ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt
     git --no-pager log | grep "Author: " > ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt
     processRawLog ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt
+    processNamesLog ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/uniq-names-${REPO_DIR_NAME}-log.txt
     cd ${CUR_DIR}
-    rm -fR ${CLONES_DIR}/${REPO_DIR_NAME}
+    # rm -fR ${CLONES_DIR}/${REPO_DIR_NAME}
     return
 }
 
@@ -44,6 +51,14 @@ function processRawLog() {
         AUTHOR_AND_EMAIL=${FILE_LINE##Author: }
         echo ${AUTHOR_AND_EMAIL%% <*} >> ${CLEANED_FILE_LOG}
     done <${RAW_FILE_LOG} 
+    return
+}
+
+
+function processNamesLog() {
+    RAW_FILE_LOG=${1}
+    UNIQUED_FILE_LOG=${2}
+    sort  ${RAW_FILE_LOG} | uniq -d > ${UNIQUED_FILE_LOG}
     return
 }
 
