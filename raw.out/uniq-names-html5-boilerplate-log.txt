@@ -1,0 +1,101 @@
+AD7six
+Adeel Ejaz
+akolesnikov
+Alec Rust
+Alexander Salas Bastidas
+alrra
+Amila Welihinda
+Andrew Le
+Arthur Verschaeve
+Audioname
+Beau Simensen
+Ben Truyman
+Binyamin Laukstein
+bmcustodio
+brianblakely
+calvin
+Calvin Rien
+Carlos Rosquillas
+Cătălin Mariș
+Chris Rebert
+Christian Oliff
+coliff
+Craig Barnes
+Daniel Filho
+darktable
+daveatnclud
+dependabot[bot]
+Devin Rhode
+Divya Manian
+Drew Petersen
+drKraken
+drublic
+Fagner Brack
+François Robichet
+Gaël Poupard
+Gavrisimo
+greenkeeperio-bot
+Greg Zoller
+Guillaume Moulin
+H5BP
+Hans
+Hans Christian Reinl
+Jaime Bueza
+Jake Ingman
+James A. Rosen
+James Williams
+joe bartlett
+Joe Morgan
+John Bacon
+John-Scott Atlakson
+Jonathan Fielding
+Jonathan Neal
+jonathantneal
+Ken Newman
+Kim Blomqvist
+Léo Colombaro
+Maarten Verbaarschot
+Marco Biedermann
+Martin Balfanz
+Martin Hintzmann
+Mateusz Jagiełło
+Mathias Bynens
+Matt Brundage
+Matt Clarkson
+Matthew Donoughe
+Matt Smith
+meleyal
+Mike Almond
+mikealmond
+Mike Botsko
+necolas
+Nicholas Clark
+Nicolas Gallagher
+Paul Irish
+paulirish
+Philip Walton
+Phize
+QWp6t
+Richard Cornish
+Richie Bendall
+Rigel Glen
+rigelglen
+Robert Ros
+Rob Flaherty
+Rob Larsen
+Sam S
+Samus_
+Scott O'Hara
+See Guo Lin
+Shi Chuan
+Sirupsen
+slavic
+Sylvain
+t1st3
+Tony
+unknown
+Vinay
+Vlad
+Vlad Tansky
+walker
+XhmikosR
