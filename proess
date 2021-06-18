@@ -5,9 +5,10 @@ RAW_OUTPUT_DIR=${CUR_DIR}/raw.out
 CLONES_DIR=${CUR_DIR}/clones
 
 function processRepos() {
+    sort repos.txt | uniq -u > uniq.repos.txt
     while read FILE_LINE; do
         processRepo ${FILE_LINE}
-    done <repos.txt
+    done <uniq.repos.txt
     return
 }
 
