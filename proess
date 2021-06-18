@@ -40,7 +40,7 @@ function processRepoDir() {
     processRawLog ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt
     processNamesLog ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/uniq-names-${REPO_DIR_NAME}-log.txt
     cd ${CUR_DIR}
-    # rm -fR ${CLONES_DIR}/${REPO_DIR_NAME}
+    rm -fR ${CLONES_DIR}/${REPO_DIR_NAME}
     return
 }
 
