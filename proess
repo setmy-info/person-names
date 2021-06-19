@@ -16,8 +16,13 @@ function processRepo() {
     REPO_URL=${1}
     REPO_NAME=${REPO_URL##*/}
     REPO_DIR_NAME=${REPO_NAME%%.*}
-    cloneRepo ${REPO_URL} ${REPO_DIR_NAME}
-    processRepoDir ${REPO_DIR_NAME}
+    if [ -f ${RAW_OUTPUT_DIR}/uniq-names-${REPO_DIR_NAME}-log.txt ]; then
+        echo "Already handled repo (skiping processing): ${REPO_DIR_NAME}"
+    else
+        cloneRepo ${REPO_URL} ${REPO_DIR_NAME}
+        processRepoDir ${REPO_DIR_NAME}
+    fi
+    makeFullList
     return
 }
 
@@ -40,6 +45,7 @@ function processRepoDir() {
     git --no-pager log | grep "Author: " > ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt
     processRawLog ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt
     processNamesLog ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/uniq-names-${REPO_DIR_NAME}-log.txt
+    cleanUp ${REPO_DIR_NAME}
     cd ${CUR_DIR}
     rm -fR ${CLONES_DIR}/${REPO_DIR_NAME}
     return
@@ -55,12 +61,21 @@ function processRawLog() {
     return
 }
 
-
 function processNamesLog() {
     RAW_FILE_LOG=${1}
     UNIQUED_FILE_LOG=${2}
     sort  ${RAW_FILE_LOG} | uniq -d > ${UNIQUED_FILE_LOG}
     return
+}
+
+function cleanUp() {
+    REPO_DIR_NAME=${1}
+    rm ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/uniq-names-${REPO_DIR_NAME}-log.txt
+    return
+}
+
+function makeFullList() {
+    cat ${RAW_OUTPUT_DIR}/uniq-names-*-log.txt > ${RAW_OUTPUT_DIR}/full-list.txt
 }
 
 mkdir -p ${RAW_OUTPUT_DIR}

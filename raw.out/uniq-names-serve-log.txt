@@ -1,0 +1,22 @@
+Boris Serdiuk
+dependabot[bot]
+Djalma Araújo
+Federico Miras
+Giuseppe
+Greenkeeper
+greenkeeper[bot]
+greenkeeperio-bot
+Guillermo Rauch
+James Kyburz
+Justin Toh
+Leo Lamprecht
+Leonard Lamprecht
+Matheus Fernandes
+Mathias Bynens
+Nathan Rajlich
+Pablo Varela
+Sébastien Lorber
+Spenser Isdahl
+Tara Vancil
+Tim Neutkens
+Vitaly Domnikov
