@@ -123,3 +123,5 @@ https://github.com/cycfi/elements.git
 https://github.com/ryanmjacobs/c.git
 https://github.com/lewissbaker/cppcoro.git
 https://github.com/plibither8/2048.cpp.git
+https://github.com/tokyo-metropolitan-gov/covid19.git
+https://github.com/appleseedhq/appleseed.git
