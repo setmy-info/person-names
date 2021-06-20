@@ -40,14 +40,11 @@ function cloneRepo() {
 function processRepoDir() {
     REPO_DIR_NAME=${1}
     cd ${CLONES_DIR}/${REPO_DIR_NAME}
-    rm -f ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt
-    rm -f ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt
     git --no-pager log | grep "Author: " > ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt
     processRawLog ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt
     processNamesLog ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/uniq-names-${REPO_DIR_NAME}-log.txt
     cleanUp ${REPO_DIR_NAME}
     cd ${CUR_DIR}
-    rm -fR ${CLONES_DIR}/${REPO_DIR_NAME}
     return
 }
 
@@ -70,7 +67,9 @@ function processNamesLog() {
 
 function cleanUp() {
     REPO_DIR_NAME=${1}
-    rm ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt ${RAW_OUTPUT_DIR}/uniq-names-${REPO_DIR_NAME}-log.txt
+    rm -fR ${CLONES_DIR}/${REPO_DIR_NAME}
+    rm -f ${RAW_OUTPUT_DIR}/raw-${REPO_DIR_NAME}-log.txt
+    rm -f ${RAW_OUTPUT_DIR}/names-${REPO_DIR_NAME}-log.txt
     return
 }
 

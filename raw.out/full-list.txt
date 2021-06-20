@@ -1,3 +1,13 @@
+cawvyoct
+Heikki Hellgren
+Michael Hirsch
+Michael Hirsch, Ph.D
+Mihir Chaturvedi
+Mr.X
+Pascal J. Bourguignon
+tcoyvwac
+Tien Do
+xameer
 Amit Merchant
 Aniket Kudale
 Ashinze Ekene
@@ -1075,6 +1085,10 @@ WebFolder OÜ
 Yiannis Papadopoulos
 Yining Karl Li
 Yohanan Baruchel
+Gao Rui
+Victor Wang
+xgdgsc
+yutiansut
 38elements
 Alanscut
 Andrew Crites
@@ -2350,6 +2364,16 @@ Zeno Rocha
 Vitor Alencar
 Vitor Cortez
 vitormalencar
+Asger Hautop Drewsen
+Bruno Sutic
+Ryan Jacobs
+Aaron Ang
+henrytine
+Jui-Lin (Larry) Liang
+Karl Nilsson
+Thom Troy
+ttroy50
+Yili Zhao
 Ademílson F. Tonato
 B
 Bel Curcio
@@ -2375,6 +2399,12 @@ Renan Felipe
 Ricardo Silva
 Shu Ding
 Willian Justen de Vasconcellos
+Anthony Barbier
+Isabella Gottardi
+Jenkins
+Kaizen
+Simone Pellegrini
+wr0112358
 Ahmad Awais
 Ahmad Awais ⚡️
 Abhishek K
@@ -2578,6 +2608,54 @@ walter-ind
 wwells4
 Yang Libin
 苏淞丰
+Andreas Buhr
+anlongfei
+Attila
+denchat
+Lewis Baker
+lewissbaker
+lofcek
+yaoxinliu
+Adrian Ebeling
+Andrew Schwartzmeyer
+Anthony Cowley
+Boris Staletic
+Bruce Stephens
+Chao Shen
+Chen
+Daan De Meyer
+DaanDeMeyer
+Daniel Martín
+David Hotham
+Elliot Berman
+Fangrui Song
+George Xanthakis
+Guillaume Papin
+Jacob Dufault
+James Cook
+jamescookmd
+Jan Niklas Hasse
+Joel Hock
+Josh Elsasser
+kapows
+Koutheir Attouchi
+Leszek Swirski
+Nathan Ridge
+patilarpith
+Pavel Davydov
+Peter Elmers
+Phil Wise
+Rian Neogi
+rianneogi
+Riatre Foo
+romix
+scturtle
+topisani
+Walter Erquinigo
+Xu Cheng
+Yan Pas
+yshui
+Yuxuan Shui
 Abner Soares Alves Junior
 Adrian Leonhard
 Alberto Restifo
@@ -2905,6 +2983,25 @@ WanderWang
 wujohns
 xuliang
 一杉
+abumusamq
+Anuradha Dissanayake
+Aparajita Fishman
+Easylogging++
+Fabrício Ceolin
+Josh Soref
+Luiz Romário Santana Rios
+Majid
+Majid Khan
+Markus Kasten
+mkhan
+mkhan3189
+moneromooo-monero
+olehgol260
+Patrick Tou
+Rick Frank
+soyoo
+Wu Yongwei
+Yongwei Wu
 =^._.^=
 22222
 707
@@ -3580,6 +3677,20 @@ Yuyang Liu
 桦
 花裤衩
 阿林
+Andersama
+Cycfi Research
+djowel
+Duncan Mac-Vicar P
+Jean Pierre Cimalando
+Joel de Guzman
+Martijn Otto
+Péter Kardos
+redtide
+Weihao WANG
+Xeverous
+Callum Coffin
+Sébastien Rombauts
+Tom Looman
 김정환
 Aaron Heckmann
 agchou
@@ -3871,6 +3982,17 @@ Vivek Kannan
 William Dibbern
 Xie JinBin
 汪磊
+Aaron Jacobs
+Arne Döring
+BtbN
+Camilla Berglund
+Daniel Cousens
+Dav1dde
+David
+David Herberth
+dpethes
+John Novak
+Raoul Wols
 Alaina Percival
 baghaii
 cclazarou
@@ -4832,6 +4954,33 @@ wtgtybhertgeghgtwtg
 Yangshun Tay
 ychi
 yungsters
+Allen Liu
+Artem Muterko
+Aven Xiangwen Liu
+Ben Haines
+BodomMoon
+cclauss
+Chih-Yao Ma
+Hongyi Shen
+Jack
+JinkeCao
+jxie0755
+JXZGitHub
+kamyu
+Ken Yang
+Keqi Huang
+Nikolaus Fedurko
+NYCGithub
+oshapeman
+Peng Xiao
+poweihuang17
+Rance Jen
+SangHee Kim
+Sanghee Kim
+Sergey Sudakovich
+Swaroop Gadiyaram
+xfbao1986
+ycsheu
 Adam Craven
 Alan Hogan
 alireza-mh
@@ -4923,6 +5072,12 @@ U-EMmib
 Xotic750
 Younes Fkihi
 Srdjan Susnic
+Alexander Karatarakis
+Daniil Goncharov
+Neargye
+neargye
+oficsu
+terik23
 ABeltramo
 acburst
 Adam Heller
@@ -6102,6 +6257,9 @@ Wexpo Lyu
 wildhart
 Yo-An Lin
 Yuriy Dybskiy
+Claus Klein
+Dale Lukas Peterson
+Lars Melchior
 Adam
 Aleksey Tsvetkov
 alex
@@ -6880,6 +7038,209 @@ xueeinstein
 yejingfu
 Yuehang Wu
 ywkim
+0xc0deface
+Ahmed Allam
+AJ Gardner
+al2950
+Alex Choi
+Alexpux
+Al Reay
+Andre Kampling
+Andrew Fenn
+Andrew Piper
+Apivan
+arkeon
+arrowdodger
+Arroy One
+Assaf Raman
+BAntDit-PCBAntDit
+Bastian Köcher
+Bohdan Kornienko
+Brian Johnstone
+c6burns
+Caleb Bartholomew
+Charles Prévot
+Chris Burns
+Christian Refvik
+Crashy
+cread mefford
+Daniel Brall
+Daniel Gouvêa
+Daniel K. O.
+dark_sylinc
+David Reepmeyer
+David Rogers
+Dmytro Yunchyk
+Edgar
+Emily Mansfield
+Eric Cha
+Erik Ogenvik
+Eugene Golushkov
+Fabrice Fontaine
+feiyunw
+Felix Gorschlüter
+Flavien Bridault
+Florian Schoppmann
+Francesco Giordana
+George Evmenov
+Guillermo Ojea Quintana
+Harald Reingruber
+Holger Frydrych
+Inifinity
+ja0335
+Jan Geyken
+Jannik Heller
+Jean-François Verdon
+J. Edward Sanchez
+Jesse Johnson
+Joel Croteau
+John Soklaski
+Joilnen
+Jorrit de Vries
+Juan Borda
+julian.moschuering
+jvanlabeke
+Kevin Gaudet
+klaim
+Klaim - A. Joel Lamotte
+kPYKx7Ddw4n1aIKZ
+Lf3T-Hn4D
+Lior Lahav
+LMCrashy
+longer5562
+Lukas
+lunkhound
+marko213
+masterfalcon
+Matias Goldberg
+Matias N. Goldberg
+Matías N. Goldberg
+mattan_f
+Mattan Furst
+Matthew Fletcher
+Micael Dias
+michael.broutin
+Michaël Broutin
+Michael Jansen
+mikarnage
+Mikko Rytkönen
+Mingun
+Murat Sari
+Naoto Kondo
+Natan
+Nikolay Kasyanov
+niparx
+Nir Hasson
+nirhasson
+Noam Gat
+nxgraphics
+Oleksiy Ivanov
+Oliver Old
+Owen Shepherd
+Pang Lih-Hern
+Pavel Rojtberg
+Peter Szücs
+Peter Westerström
+Philip Allgaier
+philiplb
+praetor
+Raymond W. Ko
+Rémi Verschelde
+Riley Adams
+Samuel Kogler
+Sasu Robert
+SerVerXPlanet
+Shawn Walker
+Shenjoku
+Simon Schmeisser
+SNiLD
+spacegaier
+Stefania Pedrazzi
+Steve Streeting
+Stoyanov Vlad
+Strachu
+Sven-Hendrik Haase
+Zaid Abdulla
+Zi Ye
+tangren
+TheSHEEEP
+threax
+tiggilyboo
+Tim Rakowski
+Tobias Schmidt
+Tomáš Kováč
+Transporter
+transporter
+Unknown
+van
+Vincenzo Comito
+William Woodall
+wolfmanfx
+xantares
+Akash Sharma
+arrfou90
+Ben Guidarelli
+Benjamin Ummenhofer
+Cyril Kaiser
+Dan Petre
+David Adrian
+David Montague
+dotchang
+Eric Cousineau
+Fangjun Kuang
+German Ros
+germanros1987
+Gernot
+Gregory Kramida
+Hamdi Sahloul
+Ignacio Vizzo
+iory
+JackLangerman
+Jaesik Park
+Jesse Vander Does
+jspark
+Junha Lee
+Junyi
+keineahnung2345
+kookhh0827
+kuonangzhe
+Madhav Humagain
+Matthew Jarvis
+Miaoding Dai
+Michal W. Tarnowski
+nicolas-chaulet
+Noah Stier
+Nobuo Tsukamoto
+Pablo Escobar
+Pablo Speciale
+Park
+Parker Lusk
+Patrick Stotko
+Paul Jurczak
+Pranay Mathur
+Prantl
+prewettg
+pvarvak
+qianyizh
+Qianyi Zhou
+Qingyu Chen
+Rene
+Rishabh Singh
+Rohan Rathi
+Samarth Brahmbhatt
+sammo2828
+Sanskar Agrawal
+Shubham Agarwal
+Sondre
+Sondre Kongsgård
+ssheorey
+takanokage
+TheodoreT
+Thomas Schöps
+Timo Röhling
+Wei Dong
+Xardvor
+Yixing Lao
 =
 101arrowz
 Abdullah
@@ -8706,6 +9067,68 @@ Spenser Isdahl
 Tara Vancil
 Tim Neutkens
 Vitaly Domnikov
+Arash
+Christophe Meessen
+eidheim
+Jørgen Lien Sellæg
+k1988
+knowledge4igor
+Mathieu Schroeter
+Ole Christian Eidheim
+Øyvind Saltvik
+ProTrack
+Sébastien Huss
+Seth Hamilton
+waga-git
+Abit
+abitmore
+arhag
+ausbitbank
+Bartek Wrona
+Daniel Larimer
+Dariusz Kedzierski
+Dariusz Kędzierski
+Donovan Walker
+Eric Frias
+Feruz M
+furion
+fxnormaluser
+Gandalf
+Jeffrey Paul
+Johan Nordberg
+Julian Gonzalez
+JustinW
+justinw
+Justin Welch
+Łukasz Bujak
+Marek Kochanowicz
+Mariusz Trela
+Mariusz-Trela
+Martin Lees
+mejutandrew
+Michael Vandeberg
+mtrela
+Nate Brune
+Nathan Hourt
+Nathaniel Caldwell
+nbcwell
+Paul Brossier
+Peter Conrad
+plink01001
+Raj
+Reverse Flash
+revflash
+Scott Sallinen
+Seungwon Eugene Jeong
+Smittyvb
+Steve Gerbino
+theoreticalbts
+therealwolf
+Tim
+TimCliff
+Wieslaw
+Wiesław Kędzierski
+youkaicountry
 aamct2
 Aaron Friel
 AaronFriel
@@ -10592,6 +11015,47 @@ Yutaka Obuchi
 林炳权
 森叶
 程方
+Adi Shavit @ MacBookPro
+Adrien Kaiser
+Alexander Bock
+Björn Steinbrink
+capehill
+Chris Liebert
+Colin MacKenzie IV
+CoolerExtreme
+domgho
+E J Burns
+filipwasil
+Florian Stellbrink
+gopalss
+Grayson Lang
+Holden Green
+Jamie Snape
+jasjuang
+Jonathan L Long
+Louise Poubel
+LZaw
+Matt Pharr
+Max Limper
+Merlyn Morgan-Graham
+Nate Koenig
+Neptilo
+Nicolas Guillemot
+noma
+Ododo
+ogrex
+Paul Melnikow
+Richard Fabian
+root
+Shane Loretz
+Simon Otter
+Steven Peters
+Syoyo
+Syoyo Fujita
+Vazquinhos
+Victor Ripplinger
+Vincent de Marignac
+YarmUI
 Alexandre Ruban
 Alex Robbin
 Chris Oliver
@@ -11323,6 +11787,98 @@ Yuxuan He
 наб
 双草酸酯
 周杰
+Adrian B. Danieli
+Alexander Sokolov
+Alex Rohleder
+Arthur Denner
+Barthélémy Ledoux
+Binwei Fang
+Bodo Graumann
+Bogdan Luca
+Booker Zhao
+Boris K
+Carlos Rodrigues
+Cédric Exbrayat
+Chris Fritz
+Craig Morris
+Damian Stasik
+Dave Dane Pacilan
+defead
+dependabot[bot]
+Derek Henscheid
+diogosalazar
+Doma
+Domenico Gemoli
+Drew Bragg
+dtcz
+Evan You
+Frank Fang
+fxxjdedd
+George Tsiolis
+Giovanni Condello
+Githoniel
+Guillaume Chau
+Haoqun Jiang
+Haroen Viaene
+Hollow Man
+Hugo Alliaume
+Igor Randjelovic
+Ivan Sieder
+James George
+james south
+J Bruni
+Jianrong Yu
+JiZhi
+JK
+Jonas
+Jorge Moliner
+Jovino Xu
+kazuya kawaguchi
+katashin
+Kid
+Kristoffer K
+KuangPF
+ky-is
+Maël Nison
+Matt Thomas
+Maurici Abad Gutierrez
+Max Tolkachev
+Michał Sajnóg
+Natalia Tepluhina
+Noel De Martin
+ntnyq
+Patrick
+Pavan Kumar Sunkara
+Payton Burdette
+Phan An
+Pierre-Alexandre
+remote-star
+Robbin Baauw
+shadow-light
+ziga
+zrh122
+test
+The Jared Wilcurt
+Thomas Kint
+Thorsten Lünborg
+toBeTheLight
+Tobias Bieniek
+Tony Trinh
+troy351
+ULIVZ
++v
+vimvinter
+WilsonLiu95
+Xin Tan
+xsbchen
+Yaojun Zheng
+Yazhe Wang
+yazhe wang
+Yingya Zhang
+勾三股四
+小新
+汪磊
+花裤衩
 AchillesJ
 Alexander
 Alexander Sheboltaev
@@ -11405,6 +11961,47 @@ YOU
 小散
 松鹤
 狼族小狈
+AchillesJ
+Alec Koumjian
+Alexander Sokolov
+Bruno Lesieur
+Calvin Liang
+ChangJoo Park(박창주)
+crossjs
+Dave Honneffer
+dependabot[bot]
+Dharik Patel
+Eduardo San Martin Morote
+Emanuel Mutschlechner
+Evan You
+fnlctrl
+Francois Hendriks
+Grigoriy Beziuk
+James Homer
+Jinjiang
+JounQin
+Kanwal Singh
+kazuya kawaguchi
+katashin
+lizhihua
+Louis-Marie Michelin
+Pascal AOMS
+Peach
+Rahul Kadyan
+Rolf Haug
+Shika358
+Stanislav Termosa
+Zac Charles
+zeratulmdq
+ziga
+zrh122
+Takuya Tejima
+Thorsten Lünborg
+Wade Urry
+Wesley Mao
+wiiikiii
+勾三股四
+宋铄运
 Aaa
 abal
 Abner Soares Alves Junior
